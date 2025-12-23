@@ -1,0 +1,17 @@
+[package]
+name = "stormworks-lua-simulator-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.53", features = ["derive"] }
+eframe = "0.33.0"
+egui_dock = "0.18.0"
+fluent = "0.17.0"
+fluent-bundle = "0.16.0"
+mlua = { version = "0.11.5", features = ["lua53"] }
+sys-locale = "0.3.2"
+unic-langid = "0.9.6"
+
+[build-dependencies]
+chrono = "0.4.42"
