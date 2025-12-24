@@ -2,6 +2,7 @@ use eframe::{NativeOptions, egui};
 
 use egui_dock::{DockArea, DockState, NodeIndex, Style};
 
+// Function to start gui
 pub fn run_gui() -> eframe::Result<()> {
     let options = NativeOptions::default();
     eframe::run_native(

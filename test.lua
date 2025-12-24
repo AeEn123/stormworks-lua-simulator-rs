@@ -1,6 +1,5 @@
-print("test")
-function test()
-	print("Hello World!")
-
-	print(os.execute("ls")) -- sandbox test
+num = 0
+function onTick()
+    num = num + 1
+    output.setNumber(1, num)
 end

@@ -5,7 +5,7 @@
 
 > [!CAUTION]
 > This project is still in development and may contain bugs or inaccuracies.
-> Please consider alternatives until it is more developed. (it can't even run lua scripts yet lol)
+> Please consider alternatives until it is more developed. (only basic input/output is implemented)
 
 A simulator for Stormworks lua scripts written in Rust.
 It is designed to be as accurate as possible, if any inaccuracies are found, please report them on [GitHub](https://github.com/AeEn123/stormworks-lua-simulator-rs/issues).
